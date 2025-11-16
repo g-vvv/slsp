@@ -1,4 +1,4 @@
-package sslr
+package slsp
 
 import (
 	"bytes"
