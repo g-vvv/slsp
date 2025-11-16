@@ -17,4 +17,6 @@ Example: slsp -s "old" -r "new" -l 1024 -n 5 config.txt
         The patch string (required).
   -s string
         The string to be patched (required).
+
+Simplest usage example: sslp -s "take" -r "give" example.exe
 ```
