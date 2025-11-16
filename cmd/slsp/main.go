@@ -6,7 +6,7 @@ import (
 	"log"
 	"os"
 
-	"github.com/g-vvv/slsp"
+	slsp "github.com/g-vvv/slsp"
 )
 
 func main() {
