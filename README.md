@@ -8,7 +8,7 @@ $ go install github.com/g-vvv/slsp/cmd/slsp@latest
 
 ```
 Usage: slsp -s <search> -r <replace> [-l <bytes>] [-n <count>] <filename>
-Example: slsp -s 'old' -r 'new' -l 1024 -n 5 config.txt
+Example: slsp -s "old" -r "new" -l 1024 -n 5 config.txt
   -l int
         Optional: Limit patching to the first L bytes. (default: full file length) (default -1)
   -n int
