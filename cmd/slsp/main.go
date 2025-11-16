@@ -6,7 +6,7 @@ import (
 	"log"
 	"os"
 
-	"github.com/g-vvv/sslp"
+	"github.com/g-vvv/slsp"
 )
 
 func main() {
@@ -41,5 +41,5 @@ func main() {
 		log.Fatalln("Error: Strings cannot be empty.")
 	}
 
-	sslp.Patch(filename, *searchStr, *replaceStr, *limit, *occurrences)
+	slsp.Patch(filename, *searchStr, *replaceStr, *limit, *occurrences)
 }
