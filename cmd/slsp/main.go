@@ -20,8 +20,8 @@ func main() {
 	args := flag.Args()
 	if len(args) != 1 {
 		fmt.Println("Error: Exactly one filename argument is required.")
-		fmt.Println("Usage: sslr -s <search> -r <replace> [-l <bytes>] [-n <count>] <filename>")
-		fmt.Println("Example: sslr -s 'old' -r 'new' -l 1024 -n 5 config.txt")
+		fmt.Println("Usage: slsp -s <search> -r <replace> [-l <bytes>] [-n <count>] <filename>")
+		fmt.Println("Example: slsp -s 'old' -r 'new' -l 1024 -n 5 config.txt")
 		flag.PrintDefaults()
 		os.Exit(1)
 	}
