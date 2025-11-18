@@ -88,11 +88,11 @@ slsp -s "Error" -r "Warn" app.log
 ## Contributors
 
 After changes and patches, please git tag the versions and notify proxy.golang.org for version changes.
+
 Example for v1.0.0:
 
 ```bash
 git tag v1.0.0
 git push origin v1.0.0
 go list -m github.com/g-vvv/slsp@v1.0.0
-# Error: -s (search) and -r (replace/patch) strings must be the same length.
 ```
