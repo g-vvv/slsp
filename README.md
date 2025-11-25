@@ -59,11 +59,11 @@ slsp -s "ver_01" -r "ver_02" config.ini
 
 ### 2\. Patching a Binary Header
 
-Replace the _first_ occurrence of `BAD_MAGIC` with `GOOD_MAGIC` within the _first 1024 bytes_ of an executable.
+Replace the _first_ occurrence of `LAME_MAGIC` with `GOOD_MAGIC` within the _first 1024 bytes_ of an executable.
 
 ```bash
-# "BAD_MAGIC" and "GOOD_MAGIC" are both 9 bytes
-slsp -s "BAD_MAGIC" -r "GOOD_MAGIC" -l 1024 -n 1 program.exe
+# "LAME_MAGIC" and "GOOD_MAGIC" are both 10 bytes
+slsp -s "LAME_MAGIC" -r "GOOD_MAGIC" -l 1024 -n 1 program.exe
 ```
 
 ### 3\. Limiting Total Replacements
